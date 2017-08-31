@@ -28,7 +28,6 @@ namespace web
         {
 	        loggerFactory.AddConsole();
 	        loggerFactory.AddDebug();
-	        //removed the rest of the lines
 
             if (env.IsDevelopment())
             {
